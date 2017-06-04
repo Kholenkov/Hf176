@@ -3476,7 +3476,7 @@ class Validator {
     /**
      * @param {String} fieldName
      * @param {Array|Object|String} rule
-     * Array: ['Rule1', Rule2, ...]
+     * Array: ['Rule1', ['Rule2', {param: paramVal, ...}], Rule3, ...]
      * Object: Rule
      * Object: {'Rule1': {param: paramVal, ...}, 'Rule2': null, ...}
      * String: 'Rule'
